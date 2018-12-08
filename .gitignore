@@ -26,3 +26,6 @@ public/js
 public/fonts
 public/css
 public/build
+node_modules*
+package-lock.json
+.user.ini

@@ -48,6 +48,7 @@
     "laravel-elixir": "^4.2.1",
     "laravel-elixir-karma": "^0.2.2",
     "main-bower-files": "^2.1.0",
+    "npm": "^6.4.1",
     "underscore": "^1.8.3",
     "webpack": "^1.12.11",
     "webpack-dev-server": "^1.14.1",
@@ -57,6 +58,8 @@
     "npm": ">=3"
   },
   "scripts": {
-    "postinstall": "bower install && gulp --production"
+    "prod": "bower install --allow-root && gulp --production",
+    "dev": "bower install --allow-root && gulp ", 
+    "watch": "gulp watch"
   }
 }

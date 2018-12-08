@@ -59,7 +59,7 @@ elixir(function (mix) {
     .styles(styles, './public/css/final.css')
     .version(assets)
     .browserSync({
-      proxy: 'localhost:8000'
+      proxy: 'ladmin.jd.com'
     })
     .karma({
       jsDir: karmaJsDir
